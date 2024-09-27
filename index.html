@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telegram Mini App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="video-container">
+        <!-- Profile button -->
+        <div class="profile-icon">
+            <img src="assets/profile-icon.png" alt="Profile">
+        </div>
+
+        <!-- Video element -->
+        <video controls id="video">
+            <source src="assets/sample-video.mp4" type="video/mp4">
+        </video>
+
+        <!-- Right-side buttons (likes, comments, share) -->
+        <div class="actions">
+            <div class="action-btn like">
+                <img src="assets/like-icon.png" alt="Like">
+                <span>1.2k</span>
+            </div>
+            <div class="action-btn comment">
+                <img src="assets/message-icon.png" alt="Comment">
+                <span>345</span>
+            </div>
+            <div class="action-btn share">
+                <img src="assets/share-icon.png" alt="Share">
+                <span>Share</span>
+            </div>
+        </div>
+
+        <!-- Bottom caption and progress bar -->
+        <div class="video-info">
+            <div class="caption">
+                <p>@Luez: is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's</p>
+            </div>
+            <div class="progress-bar">
+                <div id="progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
